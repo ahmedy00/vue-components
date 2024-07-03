@@ -28,7 +28,6 @@ describe('Loader Component', () => {
 
   describe('Style Tests', () => {
     test('has `w-16` and `h-16` classes while size is large', () => {
-      console.log('--------------------------------classList------------------------', wrapper.find('[data-test="spinner"]').element.classList)
       expect(wrapper.find('[data-test="spinner"]').classes()).toContain('w-16')
       expect(wrapper.find('[data-test="spinner"]').classes()).toContain('h-16')
     })
