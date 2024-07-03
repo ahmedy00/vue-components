@@ -1,0 +1,19 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Loader Component > Style Tests > has correct default styles 1`] = `
+<div
+  class="flex flex-col items-center justify-center space-y-1"
+  data-test="loader"
+>
+  <div
+    class="border-4 border-t-4 border-t-primary rounded-full animate-spin ease-linear w-16 h-16"
+    data-test="spinner"
+  />
+  <div
+    class="text-white"
+    data-test="loader-text"
+  >
+    Please Wait
+  </div>
+</div>
+`;
